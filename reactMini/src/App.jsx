@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Accordion from './components/accordion/Accordion'
 import RandomColor from './components/randomColor/RandomColor'
 import StarRating from './components/starRating/StarRating'
+import ImageSlider from './components/imageSlider/ImageSlider'
 
 function App() {
 
@@ -16,7 +17,10 @@ function App() {
       {/* <RandomColor/> */}
 
       {/* star rating */}
-      <StarRating/>
+      {/* <StarRating/> */}
+
+      {/* image slider */}
+      <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"}  />
     </>
   )
 }
