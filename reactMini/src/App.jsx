@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Accordion from './components/accordion/Accordion'
 import RandomColor from './components/randomColor/RandomColor'
+import StarRating from './components/starRating/StarRating'
 
 function App() {
 
@@ -12,7 +13,10 @@ function App() {
       {/* <Accordion /> */}
 
       {/* random color Component */}
-      <RandomColor/>
+      {/* <RandomColor/> */}
+
+      {/* star rating */}
+      <StarRating/>
     </>
   )
 }
