@@ -5,6 +5,7 @@ import Accordion from './components/accordion/Accordion'
 import RandomColor from './components/randomColor/RandomColor'
 import StarRating from './components/starRating/StarRating'
 import ImageSlider from './components/imageSlider/ImageSlider'
+import LoadMoreButton from './components/load-more-data/LoadMoreButton'
 
 function App() {
 
@@ -20,7 +21,10 @@ function App() {
       {/* <StarRating/> */}
 
       {/* image slider */}
-      <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"}  />
+      {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"}  /> */}
+
+      {/* load more button */}
+      <LoadMoreButton/>
     </>
   )
 }
