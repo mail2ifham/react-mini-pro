@@ -8,14 +8,14 @@ import ImageSlider from './components/imageSlider/ImageSlider'
 import LoadMoreButton from './components/load-more-data/LoadMoreButton'
 import TreeView from "./components/treeView/TreeView"
 import menus from './components/treeView/data'
-// import 
+import QRCodeGenerator from './components/qr-code-generator/QRCodeGenerator'
 
 function App() {
 
   return (
     <>
       {/* Accordion component */}
-      <Accordion />
+      {/* <Accordion /> */}
 
       {/* random color Component */}
       {/* <RandomColor/> */}
@@ -31,6 +31,9 @@ function App() {
 
       {/* Tree view */}
       {/* <TreeView menu={menus}/> */}
+
+      {/* QR code generator */}
+      <QRCodeGenerator/>
 
     </>
   )
